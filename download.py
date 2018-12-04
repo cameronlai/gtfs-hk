@@ -34,12 +34,12 @@ def download_mdb(directory):
             break
 
 @click.command()
-@click.option('--directory', default='mdb', help='Download Directory')
+@click.option('--directory', default='pkl', help='Download Directory')
 def download_pkl(directory):
     """
     Download pickle files from the github to skip the step of handling mdb files
     """
-    print('Download')
+    print('To be done. You may download directly from github and put it in the pkl folder.')
 
 if __name__ == "__main__":
     download_mdb('mdb')
